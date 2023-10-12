@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=Pixelify+Sans&family=Roboto+Mono:ital,wght@0,300;0,500;1,400&display=swap');
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+ 
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #161515;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+#centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    color: #ffffff; /* Text color (e.g., orange) */
+    background-color: transparent; /* Set background color to transparent */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    /* font-family: 'Exo', sans-serif; */
+    font-family: 'Pixelify Sans', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
+  }
